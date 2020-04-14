@@ -1,0 +1,15 @@
+#
+# helix configuration for local development
+#
+version: 1
+
+definitions:
+  defaults:
+    - &defaultRepo "https://www.github.com/marquiserosier/embeddingcheck.git"
+
+strains:
+  - name: default
+    code: https://www.github.com/marquiserosier/embeddingcheck.git#master
+    content: https://www.github.com/marquiserosier/embeddingcheck.git#master
+    static: https://www.github.com/marquiserosier/embeddingcheck.git/htdocs#master
+    package: mrosier/c4763cd3420bf015454e2e1f2ce2ecd1dd1ca942
